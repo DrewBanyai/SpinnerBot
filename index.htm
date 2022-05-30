@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>SpinnerBot</title>
+    <meta name="description" content="Simple bot to spin a spinner on a Twitch chat command" />
+                                                                                <!-- REMOVE -->
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js"></script>
+                                                                                <!-- REMOVE -->
+    <!--  TwitchJS online header -->                                            <!-- REMOVE -->
+    <script src="Twitch/twitch.js"></script>                                    <!-- LOCAL -->
+    <script src="Twitch/TwitchController.js"></script>                          <!-- LOCAL -->
+                                                                                <!-- REMOVE -->
+    <!-- Site Parts -->                                                         <!-- REMOVE -->
+    <script src="SiteParts/SiteMainArea.js"></script>                           <!-- LOCAL -->
+    <script src="SiteParts/Winwheel.js"></script>                               <!-- LOCAL -->
+    <script src="SiteParts/Spinner.js"></script>                                <!-- LOCAL -->
+                                                                                <!-- REMOVE -->
+    <!-- Sounds -->                                                             <!-- REMOVE -->
+    <script src="Settings.js"></script>
+                                                                                <!-- REMOVE -->
+    <script src="index.js"></script>                                            <!-- LOCAL -->
+    <script src="favicon.js"></script>                                          <!-- LOCAL -->
+</head>
+
+<body onload="LoadSiteContent()" style="margin: 0px; text-align: center; display: table-cell; width: 1280px; height: 720px; vertical-align: middle">
+    <div id="wheel_bg" style="display: none; width: 1280px; height: 720px; text-align: center; vertical-align: center; justify-content: center; position: relative; top: 100px; background-position: center 0px; background-repeat: no-repeat;">
+        <td width="421" height="564">
+            <canvas id="canvas" width="420" height="560" style="position: relative; top: 2px"/>
+        </td>
+    </div>
+</body>
+
+<!-- CODE -->
+
+</html>
